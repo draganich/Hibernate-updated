@@ -28,8 +28,6 @@ public class UserDaoHibernateImpl implements UserDao {
         } catch (HibernateException e) {
             throw new RuntimeException("Исключение при создании таблицы.");
         }
-
-
     }
 
     @Override
@@ -97,6 +95,5 @@ public class UserDaoHibernateImpl implements UserDao {
             throw new RuntimeException("Исключение при удалении данных о всех пользователях.");
         }
     }
-
 }
 
